@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td><img src="./Ecommerce Dashboard/Screenshot(72).png" width="100%" alt="Dashboard Page 1"></td>
+    <td><img src="Ecommerce Dashboard/Screenshot (72).png" width="100%" alt="Dashboard Page 1"></td>
     <td><img src="./Ecommerce Dashboard/Screenshot(73).png" width="100%" alt="Dashboard Page 2"></td>
   </tr>
   <tr>
