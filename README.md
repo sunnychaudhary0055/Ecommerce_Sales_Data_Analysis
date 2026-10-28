@@ -14,84 +14,228 @@
   </tr>
 </table>
 
-📌 Project Overview
+## 📌 Project Overview
 
-  This project focuses on analyzing e-commerce sales data using Python, Pandas, NumPy, and Power BI to uncover meaningful business insights and improve data-        driven decision-making.
+This project is an end-to-end E-commerce Data Analysis project designed to analyze sales data and generate meaningful business insights.
 
-  Python libraries are used for data cleaning, manipulation, and exploratory data analysis (EDA), while Power BI is used to build interactive dashboards that        visualize sales performance, product trends, and key business metrics.
+The project involves cleaning and preprocessing raw data using Python, solving business problems using SQL, and developing an interactive dashboard using Power BI.
 
-🎯 Project Objectives
-  
-  - Analyze overall sales and revenue performance.
-  - Identify top-selling products and product categories.
-  - Understand sales trends over different time periods.
-  - Perform data cleaning and preprocessing.
-  - Explore patterns and trends in e-commerce sales data.
-  - Build an interactive Power BI dashboard for business reporting.
-  - Generate actionable insights to support business decisions.
+The objective is to transform raw data into a structured dataset, analyze business performance, and present insights through visualizations to support data-driven decision-making.
 
-🛠️ Tools & Technologies
+---
 
-  - Python – Data analysis and preprocessing
-  - Pandas – Data manipulation and cleaning
-  - NumPy – Numerical calculations and data processing
-  - Power BI – Interactive dashboards and data visualization
+## 🎯 Project Objectives
 
-📊 Project Workflow
+- Clean and preprocess raw E-commerce data using Python.
+- Handle missing values, duplicates, and data inconsistencies.
+- Perform business analysis using SQL.
+- Analyze sales, revenue, profit, and customer behavior.
+- Identify trends and patterns in business performance.
+- Create an interactive Power BI dashboard.
 
-  - Data Collection: Load the e-commerce sales dataset.
-  - Data Cleaning: Handle missing values, duplicates, and data inconsistencies where required.
-  - Data Analysis: Use Pandas and NumPy to explore the dataset and calculate relevant metrics.
-  - Exploratory Data Analysis (EDA): Identify patterns, trends, and relationships in the data.
-  - Dashboard Development: Create interactive visualizations and sales reports using Power BI.
-  - Insights & Recommendations: Summarize key findings to support business decision-making.
+---
 
-📈 Key Analysis Areas
+## 🛠️ Tools & Technologies
 
-  - Overall sales and revenue analysis
-  - Product and category performance
-  - Sales trends over time
-  - Order and quantity analysis
-  - Identification of top-performing products
-  - Business performance monitoring through Power BI
+| Tool | Purpose |
+|---|---|
+| Python | Data cleaning and preprocessing |
+| Pandas | Data manipulation and transformation |
+| SQL | Business analysis and querying |
+| Power BI | Dashboard development and visualization |
+| Excel | Raw dataset |
 
-💡 Key Insights
+---
 
-The project aims to identify:
+## 📊 Dataset Information
 
-  - Which products or categories generate the highest sales.
-  - How sales performance changes over time.
-  - Which products contribute most to overall revenue.
-  - Potential opportunities for improving sales performance.
+The project uses an E-commerce dataset containing information about orders, customers, products, sales, payments, and delivery.
 
-📂 Project Files
+### Dataset Summary
 
-The repository may include the following files:
+| Description | Records | Columns |
+|---|---:|---:|
+| Original Dataset | 524 | 15 |
+| Cleaned Dataset | 444 | 21 |
+| Records Removed | 80 | - |
+| New Columns Created | - | 6 |
 
-  - Python notebook (.ipynb) containing data cleaning and analysis.
-  - Dataset (.csv or other supported format), if permitted to share.
-  - Power BI dashboard file (.pbix).
-  - Dashboard screenshots for quick preview.
-  - README.md documenting the project.
+### Dataset Files
 
-🚀 How to Explore the Project
+**1. Ecommerce_Unclean_Project.xlsx**
 
-  - Clone or download this repository.
-  - Open the Python notebook using Jupyter Notebook or VS Code.
-  - Install the required Python libraries.
-  - Run the notebook cells to explore the data analysis.
-  - Open the .pbix file in Power BI Desktop to interact with the dashboard.
-  - Install Python Libraries
-  - pip install pandas numpy jupyter
+Contains the original raw and unclean E-commerce dataset.
 
-🏁 Conclusion
+- Total Records: 524
+- Total Columns: 15
 
-  This project demonstrates the use of Python-based data analysis and Power BI visualization to turn raw e-commerce sales data into meaningful business insights.    It highlights practical skills in data preprocessing, exploratory data analysis, sales reporting, and dashboard development.
+**2. Clean_Ecommerce_Project.csv**
 
-👨‍💻 Author
+Contains the cleaned and processed dataset prepared using Python.
 
-Sunny Chaudhary
+- Total Records: 444
+- Total Columns: 21
 
-GitHub: https://github.com/sunnychaudhary0055
+After data cleaning, 80 records were removed and 6 additional columns were created for further analysis.
 
-⭐ If you find this project useful, feel free to star the repository!
+---
+
+## 🔄 Project Workflow
+
+### 1. Data Cleaning using Python
+
+Python and Pandas were used to clean and preprocess the raw E-commerce dataset.
+
+Key steps performed:
+
+- Loaded the raw dataset using Pandas.
+- Checked missing values and duplicate records.
+- Removed unwanted and inconsistent records.
+- Handled data inconsistencies.
+- Converted columns into appropriate data types.
+- Created additional calculated columns.
+- Exported the cleaned dataset into CSV format.
+
+### 2. Business Analysis using SQL
+
+The cleaned dataset was used to solve business-related questions using SQL.
+
+The analysis focused on:
+
+- Sales and revenue analysis
+- Profit analysis
+- Category-wise performance
+- Product-wise performance
+- Customer analysis
+- Monthly sales trends
+- Order status analysis
+- Payment mode analysis
+
+SQL queries helped extract meaningful information and identify business trends.
+
+### 3. Dashboard Development using Power BI
+
+Power BI was used to create an interactive dashboard for visualizing the analysis results.
+
+The dashboard helps to:
+
+- Monitor overall sales performance.
+- Analyze revenue and profit.
+- Compare product and category performance.
+- Identify sales trends.
+- Explore business performance through interactive filters.
+- Present insights in a visual and easy-to-understand format.
+
+---
+
+## 🧹 Data Cleaning using Python
+
+The raw dataset contained 524 records and 15 columns.
+
+After cleaning and preprocessing, the dataset contained 444 records and 21 columns.
+
+### Data Cleaning Tasks
+
+- Handling missing values
+- Removing duplicate records
+- Cleaning inconsistent data
+- Correcting data types
+- Preparing data for analysis
+- Creating calculated columns
+
+### New Columns Created
+
+The following 6 columns were added during data preprocessing:
+
+| Column | Description |
+|---|---|
+| Total_Sales | Total sales amount |
+| Net_Amount | Sales amount after discount |
+| Profit | Profit generated |
+| Order_Month | Month of the order |
+| Order_Year | Year of the order |
+| WeekDay | Day of the week |
+
+---
+
+## 📈 SQL Business Analysis
+
+SQL was used to analyze the cleaned dataset and answer business-related questions.
+
+### Key Analysis Areas
+
+- Overall sales performance
+- Total revenue and profit
+- Monthly sales trends
+- Product-wise sales
+- Category-wise sales
+- Customer purchasing behavior
+- Order status distribution
+- Payment mode analysis
+
+The SQL analysis helped identify important business patterns and supported data-driven decision-making.
+
+---
+
+## 📊 Power BI Dashboard
+
+An interactive dashboard was developed using Power BI to visualize key business metrics and analysis results.
+
+### Dashboard Highlights
+
+- Sales performance overview
+- Revenue and profit analysis
+- Product and category performance
+- Monthly sales trends
+- Customer and order analysis
+- Interactive filters and visualizations
+
+The dashboard provides a clear and interactive view of E-commerce business performance.
+
+---
+
+## 📁 Project Structure
+
+```text
+E-commerce-Data-Analysis/
+│
+├── Ecommerce_Unclean_Project.xlsx
+│
+├── Clean_Ecommerce_Project.csv
+│
+├── SQL_Queries.sql
+│
+├── Ecommerce_Dashboard.pbix
+│
+└── README.md
+```
+
+---
+
+## 💡 Key Learnings
+
+- Data cleaning and preprocessing using Python and Pandas.
+- Handling real-world data inconsistencies.
+- Writing SQL queries to solve business problems.
+- Performing sales and business performance analysis.
+- Creating interactive dashboards using Power BI.
+- Transforming raw data into meaningful business insights.
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates a complete E-commerce data analysis workflow, starting from raw data cleaning using Python, followed by SQL-based business analysis, and finally interactive dashboard development using Power BI.
+
+It showcases practical data analytics skills and the ability to transform raw data into meaningful insights that help understand business performance and support informed decision-making.
+
+---
+
+## 👨‍💻 Author
+
+**Sunny Chaudhary**
+
+Aspiring Data Analyst
+
+Skills: Python | SQL | Power BI | Excel
+
