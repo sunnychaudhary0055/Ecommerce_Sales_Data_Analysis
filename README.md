@@ -3,11 +3,11 @@
 <table>
   <tr>
     <td><img src="Ecommerce Dashboard/Screenshot (72).png" width="100%" alt="Dashboard Page 1"></td>
-    <td><img src="./Ecommerce Dashboard/Screenshot(73).png" width="100%" alt="Dashboard Page 2"></td>
+    <td><img src="Ecommerce Dashboard/Screenshot (73).png" width="100%" alt="Dashboard Page 2"></td>
   </tr>
   <tr>
-    <td><img src="./Ecommerce Dashboard/Screenshot(74).png" width="100%" alt="Dashboard Page 3"></td>
-    <td><img src="./Ecommerce Dashboard/Screenshot(75).png" width="100%" alt="Dashboard Page 4"></td>
+    <td><img src="./Ecommerce Dashboard/Screenshot (74).png" width="100%" alt="Dashboard Page 3"></td>
+    <td><img src="./Ecommerce Dashboard/Screenshot (75).png" width="100%" alt="Dashboard Page 4"></td>
   </tr>
   <tr>
     <td><img src="./Ecommerce Dashboard/Screenshot(76).png" width="100%" alt="Dashboard Page 5"></td>
